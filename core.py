@@ -23,6 +23,6 @@ def load_file():
         Body = open(LOCAL_PATH, 'rb')
     )
     
-    print('Uploaded succesfully!')
+    print('Uploaded file to s3 succesfully!')
     
 if __name__ == '__main__': load_file()
